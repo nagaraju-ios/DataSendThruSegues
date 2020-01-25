@@ -14,6 +14,8 @@
 		17856CDA2383AC2200EF794B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17856CD82383AC2200EF794B /* LaunchScreen.storyboard */; };
 		17856CE52383AC2200EF794B /* DataSendThruSeguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17856CE42383AC2200EF794B /* DataSendThruSeguesTests.swift */; };
 		17856CF02383AC2300EF794B /* DataSendThruSeguesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17856CEF2383AC2300EF794B /* DataSendThruSeguesUITests.swift */; };
+		17856CFE2383BB4000EF794B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17856CFD2383BB4000EF794B /* SecondViewController.swift */; };
+		17856D002383BB5800EF794B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17856CFF2383BB5800EF794B /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		17856CEB2383AC2300EF794B /* DataSendThruSeguesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataSendThruSeguesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17856CEF2383AC2300EF794B /* DataSendThruSeguesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSendThruSeguesUITests.swift; sourceTree = "<group>"; };
 		17856CF12383AC2300EF794B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17856CFD2383BB4000EF794B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		17856CFF2383BB5800EF794B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				17856CD62383AC2200EF794B /* Assets.xcassets */,
 				17856CD82383AC2200EF794B /* LaunchScreen.storyboard */,
 				17856CDB2383AC2200EF794B /* Info.plist */,
+				17856CFD2383BB4000EF794B /* SecondViewController.swift */,
+				17856CFF2383BB5800EF794B /* ThirdViewController.swift */,
 			);
 			path = DataSendThruSegues;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17856CFE2383BB4000EF794B /* SecondViewController.swift in Sources */,
 				17856CD22383AC1F00EF794B /* ViewController.swift in Sources */,
+				17856D002383BB5800EF794B /* ThirdViewController.swift in Sources */,
 				17856CD02383AC1F00EF794B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
